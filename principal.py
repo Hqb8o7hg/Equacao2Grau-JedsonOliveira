@@ -8,7 +8,7 @@ janela.geometry('500x100-500-500')
 def equacao_2_grau(A, B, C):
     delta = float((B ** 2) - 4 * A * C)
 
-    if A > 0:
+    if A != 0:
         if delta > 0:
             x1 = float((-B + delta ** (1 / 2)) / (2 * A))
             x2 = float((-B - delta ** (1 / 2)) / (2 * A))
